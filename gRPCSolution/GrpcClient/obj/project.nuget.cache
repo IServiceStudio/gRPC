@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "//I5+xb9Vn+W0btyz4asLGL0nhqW8Eq+7jcbNfqtbQiTViwS64QAiyV7SZtgLIrxTDRRFJOixTTZPC5Hz/gV9g==",
+  "dgSpecHash": "WYPpPzHyDbTQdmQG8MHlqgWJNexNQTYAA8+nXu+Op1ePfYIsyggQIImzniaVeY10Fd4BsFeunB6vxKXsOqbqNw==",
   "success": true,
   "projectFilePath": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcClient\\GrpcClient.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\LvFeng\\.nuget\\packages\\grpc.core.api\\2.33.1\\grpc.core.api.2.33.1.nupkg.sha512",
     "C:\\Users\\LvFeng\\.nuget\\packages\\grpc.net.client\\2.33.1\\grpc.net.client.2.33.1.nupkg.sha512",
     "C:\\Users\\LvFeng\\.nuget\\packages\\grpc.net.common\\2.33.1\\grpc.net.common.2.33.1.nupkg.sha512",
+    "C:\\Users\\LvFeng\\.nuget\\packages\\grpc.tools\\2.34.0\\grpc.tools.2.34.0.nupkg.sha512",
     "C:\\Users\\LvFeng\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
     "C:\\Users\\LvFeng\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
     "C:\\Users\\LvFeng\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
