@@ -1,16 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 using GrpcServer;
-using GrpcServer.Protos;
+using GrpcWebApi.Filter;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using System;
 
 namespace GrpcWebApi
 {
@@ -29,11 +25,10 @@ namespace GrpcWebApi
             services.AddControllers();
 
             #region ×¢ÈëgRPC·þÎñ
-            services.AddGrpcClient<Greeter.GreeterClient>(options=> {
+            services.AddGrpcClient<Greeter.GreeterClient>(options =>
+            {
                 options.Address = new Uri("https://localhost:5001");
-            });
-            services.AddGrpcClient<Test.TestClient>(options=> {
-                options.Address = new Uri("https://localhost:5001");
+                options.Interceptors.Add(new ClientFilter());
             });
             #endregion
         }

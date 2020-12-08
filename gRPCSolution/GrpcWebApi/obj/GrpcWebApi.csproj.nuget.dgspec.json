@@ -4,14 +4,14 @@
     "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcWebApi\\GrpcWebApi.csproj": {}
   },
   "projects": {
-    "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcServer\\GrpcServer.csproj": {
+    "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcWebApi\\GrpcWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcServer\\GrpcServer.csproj",
-        "projectName": "GrpcServer",
-        "projectPath": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcServer\\GrpcServer.csproj",
+        "projectUniqueName": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcWebApi\\GrpcWebApi.csproj",
+        "projectName": "GrpcWebApi",
+        "projectPath": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcWebApi\\GrpcWebApi.csproj",
         "packagesPath": "C:\\Users\\LvFeng\\.nuget\\packages\\",
-        "outputPath": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcServer\\obj\\",
+        "outputPath": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
@@ -42,80 +42,15 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Grpc.AspNetCore": {
-              "target": "Package",
-              "version": "[2.24.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcWebApi\\GrpcWebApi.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcWebApi\\GrpcWebApi.csproj",
-        "projectName": "GrpcWebApi",
-        "projectPath": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcWebApi\\GrpcWebApi.csproj",
-        "packagesPath": "C:\\Users\\LvFeng\\.nuget\\packages\\",
-        "outputPath": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcWebApi\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\LvFeng\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcServer\\GrpcServer.csproj": {
-                "projectPath": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcServer\\GrpcServer.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
             "Google.Protobuf": {
               "target": "Package",
               "version": "[3.14.0, )"
             },
             "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.33.1, )"
+            },
+            "Grpc.Net.ClientFactory": {
               "target": "Package",
               "version": "[2.33.1, )"
             },
@@ -125,9 +60,17 @@
               "target": "Package",
               "version": "[2.34.0, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
