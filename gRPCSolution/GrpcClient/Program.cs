@@ -66,8 +66,6 @@ namespace GrpcClient
                     await foreach (var resp in reply?.ResponseStream.ReadAllAsync())
                     {
                         Console.WriteLine(resp.Message);
-                        Console.WriteLine($"This is Response {Thread.CurrentThread.ManagedThreadId}");
-                        Console.WriteLine("********************************************************");
                     }
                 });
             }
