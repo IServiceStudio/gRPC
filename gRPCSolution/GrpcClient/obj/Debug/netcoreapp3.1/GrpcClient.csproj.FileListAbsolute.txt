@@ -16,3 +16,4 @@ D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcClient\obj\Debug\netcoreapp3.1\
 D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.genruntimeconfig.cache
 D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcClient\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csproj.CoreCompileInputs.cache
+D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csprojAssemblyReference.cache
