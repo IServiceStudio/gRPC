@@ -3,8 +3,6 @@ using Grpc.Net.Client;
 using GrpcServer;
 using GrpcServer.Protos;
 using System;
-using System.Collections.Generic;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace GrpcClient
