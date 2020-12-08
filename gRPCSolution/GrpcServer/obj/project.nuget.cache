@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GwJXdT9I6+kPdUYDFgf9v6DACIfqsuQVbblPDiW8JLWNUmxVvMW/YV2+F6ZIKaJF8uh48PTRFtgziDEObZxrnw==",
+  "dgSpecHash": "nPxPMpXTYUQYtQM/vGBX9GFVsuq72odBr0e1Jf+GEWX//SMHvr68L0ye/MIVYIhb0GkEEbiwTSO/ibadBS9mqQ==",
   "success": true,
   "projectFilePath": "D:\\个人练习\\2020\\Study\\gRPC\\gRPCSolution\\GrpcServer\\GrpcServer.csproj",
   "expectedPackageFiles": [

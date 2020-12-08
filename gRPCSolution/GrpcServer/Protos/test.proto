@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+option csharp_namespace = "GrpcServer.Protos";
+
+package test;
+
+// The greeting service definition.
+service Test {
+  // Sends a greeting
+  rpc SayHello (HelloRequest_Test) returns (HelloReply_Test);
+  rpc Plus (RequestPara) returns (ResponseResult);
+  rpc SelfIncreaseClient (stream BatchTheCatReq) returns (IntArrayModel);
+  rpc SelfIncreaseServer (IntArrayModel) returns (stream BatchTheCatResp);
+  rpc SelfIncreaseDouble (stream BatchTheCatReq) returns (stream BatchTheCatResp);
+  rpc Count (google.protobuf.Empty) returns (CountResult);
+}
+
+// The request message containing the user's name.
+message HelloRequest_Test {
+  string name = 1;
+  int32 id=2;
+}
+
+// The response message containing the greetings.
+message HelloReply_Test {
+  string message = 1;
+}
+
+message RequestPara{
+  int32 ILeft=1;
+  int32 IRight=2;
+}
+
+message ResponseResult{
+    int32 Result=1;
+    string Message=2;
+}
+
+message BatchTheCatReq{
+  int32 Id=1;
+}
+
+message BatchTheCatResp{
+  string Message=1;
+}
+
+message IntArrayModel{
+  repeated int32 Number=1;
+}
+
+message CountResult{
+  int32 Count=1;
+}

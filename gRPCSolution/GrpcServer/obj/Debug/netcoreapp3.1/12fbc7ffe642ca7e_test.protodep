@@ -1,0 +1,3 @@
+obj\Debug\netcoreapp3.1/Test.cs \
+obj\Debug\netcoreapp3.1/TestGrpc.cs: C:/Users/LvFeng/.nuget/packages/grpc.tools/2.23.0/build/native/include/google/protobuf/empty.proto\
+ Protos/test.proto
