@@ -12,6 +12,7 @@ namespace GrpcClient
             GrpsShow().GetAwaiter().GetResult();
         }
 
+        //simple gRPC
         private static async Task GrpsShow()
         {
             using (var channel = GrpcChannel.ForAddress("https://localhost:5001"))
