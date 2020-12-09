@@ -15,7 +15,6 @@ namespace GrpcWebApi.Controllers
     [ApiController]
     public class gRPCController : ControllerBase
     {
-        //D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi
         private readonly Greeter.GreeterClient greeterClient;
 
         public gRPCController(Greeter.GreeterClient greeterClient)
