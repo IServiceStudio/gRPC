@@ -1,6 +1,5 @@
 D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi\bin\Debug\netcoreapp3.1\appsettings.json
-D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi\bin\Debug\netcoreapp3.1\GrpcWebApi.exe
 D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi\bin\Debug\netcoreapp3.1\GrpcWebApi.deps.json
 D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi\bin\Debug\netcoreapp3.1\GrpcWebApi.runtimeconfig.json
@@ -101,3 +100,4 @@ D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi\bin\Debug\netcoreapp3.1\
 D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi\obj\Debug\netcoreapp3.1\GrpcWebApi.csproj.CoreCompileInputs.cache
 D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi\obj\Debug\netcoreapp3.1\GrpcWebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\个人练习\2020\Study\gRPC\gRPCSolution\GrpcWebApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\GrpcWebApi.styles.css
